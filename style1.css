@@ -1,0 +1,76 @@
+html,body{
+	height: 100%;
+	background-color :#222d32 !important;
+}
+
+.global-container{
+	height:100% ;
+	display :flex;
+	align-items :center;
+	justify-content :center;
+	color :#48e248;
+}
+
+.login-form{
+	width : 380px;
+	height :450px;
+	padding:20px;
+	background-color:#222d32 !important;
+	border-radius : 10px !important;
+}
+
+input[type="email"],
+input[type="password"]{
+	background: #1a2226;
+	color:#fff;
+	border:2px solid #00ff00;
+	border-radius:10px;
+	margin-bottom:25px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+	outline:none;
+	border:none;
+	background: #1a2226;
+	color :#fff;
+	margin:0;
+}
+
+.navbar-brand{
+    font-family: Arial Narrow Bold;
+    font-size:32px;
+}
+
+.jumbotron {
+    background-image: url(img/ig\ hopytii.jpg)
+    background-size: cover;
+    height: 640px;
+    margin-top: -75px;
+}
+
+.jumbotron .display-4 {
+    color: rgb(32, 26, 34);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.jumbotron .lead {
+    color: rgb(1, 0, 1);
+}
+
+.navbar-brand,.nav-link{
+    color: rgb(36, 35, 39) !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,10);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #0B63DC;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
